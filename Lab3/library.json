@@ -1,0 +1,84 @@
+{
+  "library": {
+    "location": "New York City",
+    "description": "The best library in the world",
+    "librarian": "John Smith",
+    "books": [
+      {
+        "title": "The Art of Computer Programming",
+        "ISBN": "1234567890",
+        "Author": "Donald Knuth",
+        "Preface": "Many years ago, I decided to devote my life to the art of computer programming. Since then, I've dedicated many hours and days to researching, writing and honing my craft.",
+        "Parts": [
+          {
+            "title": "Data Structures and Algorithms",
+            "Chapters": [
+              {
+                "title": "Introduction to Data Structures and Algorithms",
+                "summary": "This chapter will provide an introduction to data structures and algorithms and explains why they are important.",
+                "Sections": [
+                  {
+                    "content": "Data structures and algorithms are the building blocks of any program. They allow us to perform operations on our data more efficiently and with greater accuracy."
+                  },
+                  {
+                    "content": "Algorithms also allow us to write code that is easier to read and understand, reducing the time needed to develop software."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Gone With the Wind",
+        "ISBN": "0987654321",
+        "Author": "Margaret Mitchell",
+        "Preface": "I have always wanted to pen down the truth about mankind during this time. This novel is a perfect platform for me to share my thoughts about the events in our times. We shall all be stronger after reading this.",
+        "Parts": [
+          {
+            "title": "Fire and Ashes",
+            "Chapters": [
+              {
+                "title": "Unforgettable Characters",
+                "summary": "This chapter will cover the major characters in Gone with the Wind, their backgrounds and their motivations.",
+                "Sections": [
+                  {
+                    "content": "One of the major characters in Gone with the Wind is Scarlett O'Hara. She is a young and headstrong woman who will stop at nothing to get what she wants. Her ambition drives her to take risks that few women at this time would dare to take."
+                  },
+                  {
+                    "content": "Rhett Butler is the other major character in Gone with the Wind. He meets Scarlett and falls in love with her, but she denies him. He is the only person who truly understands Scarlett's nature and she eventually falls deeply in love with him."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "The Catcher in The Rye",
+        "ISBN": "1098765432",
+        "Author": "J. D. Salinger",
+        "Preface": "This book was written for my teenage daughter who was trying to make sense of the world around her. I wrote this book so that anyone can understand how it feels to be in a state of growth and confusion.",
+        "Parts": [
+          {
+            "title": "Adolescence",
+            "Chapters": [
+              {
+                "title": "A Growing Mind",
+                "summary": "This chapter will focus on Holden Caulfield's journey from childhood to adulthood as he grapples with a growing understanding of himself, his relationships and the world around him.",
+                "Sections": [
+                  {
+                    "content": "Holden Caulfield grapples with the pressures of growing up in a hectic, goal-oriented society while trying to make sense of his place in it. He often retreats into his own world, searching for meaning and purpose, while struggling to find acceptance and understanding."
+                  },
+                  {
+                    "content": "He is also growing conscious of sexuality and the power dynamics between men and women. He debates over obscenity and tries to come to terms with his developing desires."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
