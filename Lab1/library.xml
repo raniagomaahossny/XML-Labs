@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+
+<library>
+  <location>down_town_cairo</location>
+  <description>This Is A Rania Library</description>
+  <librarian>Ms.Mnar</librarian>
+  <books id="jj">
+    <book>
+      <![CDATA[ 
+  if (x == 0) {console.log("x is zero");}
+  else if (x < 0) {console.log("x is negative");}
+  else {console.log("x is positive");}  
+  ]]>
+      <title>programming</title>
+      <ISBN>8880.555.555</ISBN>
+      <Author>rania</Author>
+      <preface>
+        <!-- an introduction to a book, typically stating its subject, scope, or aims. --> ths book is about programming and it is a good book for beginners </preface>
+      <parts>
+        <part>
+          <chapters>
+            <chapter>
+              <title>what is programming</title>
+              <summary>programming is a process of writing a set of instructions to tell a computer
+                what to do</summary>
+              <sections>
+                <section> section 1</section>
+                <section> section 2</section>
+              </sections>
+            </chapter>
+            <chapter>
+              <title>what is programming</title>
+              <summary>programming is a process of writing a set of instructions to tell a computer
+                what to do</summary>
+              <sections>
+                <section> section 1</section>
+                <section> section 2</section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+      </parts>
+    </book>
+    <book>
+      <title>introduction to iot software engineering</title>
+      <ISBN>8880.555.8888</ISBN>
+      <Author>ryhan</Author>
+      <preface>
+        <!-- an introduction to a book, typically stating its subject, scope, or aims. --> ths book is about iot programming and it is a good book for beginners </preface>
+      <parts>
+        <part>
+          <chapters>
+            <chapter>
+              <title>what is programming</title>
+              <summary>programming is a process of writing a set of instructions to tell a computer
+                what to do</summary>
+              <sections>
+                <section> section 1</section>
+                <section> section 2</section>
+              </sections>
+            </chapter>
+            <chapter>
+              <title>what is programming</title>
+              <summary>programming is a process of writing a set of instructions to tell a computer
+                what to do</summary>
+              <sections>
+                <section> section 1</section>
+                <section> section 2</section>
+              </sections>
+            </chapter>
+          </chapters>
+        </part>
+      </parts>
+    </book>
+  </books>
+</library>

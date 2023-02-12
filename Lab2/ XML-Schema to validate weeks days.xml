@@ -1,0 +1,41 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Define the root element -->
+    <xs:element name="weekdays">
+        <!-- Define the type of the root element -->
+        <xs:complexType>
+            <!-- Define a choice element -->
+            <xs:choice>
+                <!-- Define an element named "integer" -->
+                <xs:element name="integer">
+                    <!-- Define the type of the "integer" element -->
+                    <xs:simpleType>
+                        <!-- Define a restriction of the type of the "integer" element -->
+                        <xs:restriction base="xs:integer">
+                            <!-- Define the minimum value of the "integer" element -->
+                            <xs:minInclusive value="1" />
+                            <!-- Define the maximum value of the "integer" element -->
+                            <xs:maxInclusive value="7" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <!-- Define an element named "string" -->
+                <xs:element name="string">
+                    <!-- Define the type of the "string" element -->
+                    <xs:simpleType>
+                        <!-- Define a restriction of the type of the "string" element -->
+                        <xs:restriction base="xs:string">
+                            <!-- Define the allowed values of the "string" element -->
+                            <xs:enumeration value="Saturday" />
+                            <xs:enumeration value="Sunday" />
+                            <xs:enumeration value="Monday" />
+                            <xs:enumeration value="Tuesday" />
+                            <xs:enumeration value="Wednesday" />
+                            <xs:enumeration value="Thursday" />
+                            <xs:enumeration value="Friday" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
